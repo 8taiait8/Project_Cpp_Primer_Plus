@@ -10,7 +10,9 @@
 #include <string>
 #include "main.hpp"
 // #include "main_uebung_1.hpp"
-#include "main_uebung_2.hpp"
+// #include "main_uebung_2.hpp"
+// #include "main_uebung_3.hpp"
+#include "main_uebung_4.hpp"
 
 int main(int argc, char* argv[]){
 
@@ -22,7 +24,9 @@ int main(int argc, char* argv[]){
     cout <<"------------"<< endl;
 
     // MAIN* main_fun = new UEBUNG_1;
-    MAIN* main_fun = new UEBUNG_2;
+    // MAIN* main_fun = new UEBUNG_2;
+    // MAIN* main_fun = new UEBUNG_3;
+    MAIN* main_fun = new UEBUNG_4;
 
 
 
