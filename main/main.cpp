@@ -9,12 +9,8 @@
 #include <iostream>
 #include <string>
 #include "main.hpp"
-#include "fun_1.hpp"
-#include "fun_2.hpp"
-#include "fun_3.hpp"
-#include "cube.hpp"
-#include "main_distance.hpp"
-#include "reader.hpp"
+// #include "main_uebung_1.hpp"
+#include "main_uebung_2.hpp"
 
 int main(int argc, char* argv[]){
 
@@ -25,16 +21,12 @@ int main(int argc, char* argv[]){
     cout <<"Begin main()"<< endl;
     cout <<"------------"<< endl;
 
-    // fun_1();
-    // fun_2();
-    // fun_3();
+    // MAIN* main_fun = new UEBUNG_1;
+    MAIN* main_fun = new UEBUNG_2;
 
-    // run_cube();
-    // run_distance();
-    MAIN* main_fun = new READER;
+
+
     main_fun->run();
-    // reader();
-
     delete main_fun;
 
     cout <<"------------"<<endl;
